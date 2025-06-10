@@ -1,0 +1,48 @@
+# === OS-Specific Files ===
+.DS_Store           # macOS
+Thumbs.db           # Windows
+ehthumbs.db
+Icon?
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# === Dependency Directories ===
+node_modules/
+venv/
+.env/
+
+# === Build and Dist Files ===
+dist/
+build/
+out/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# === Logs and Temp Files ===
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === Environment Files ===
+.env
+.env.local
+.env.*
+
+# === Custom Generated Files ===
+coverage/
+*.sqlite3
+*.db
+
+# === System Files ===
+*.~*     # Backup files
+*.lock
+
+# Data
+data/
